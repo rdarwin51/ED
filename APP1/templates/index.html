@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Proyecto Grupo1</h1>
+
+  <p>Bienvenido a <em>Proyecto Grupo1</em>, Aqui veran todos los temeas puestos en practica.</p>
+
+<h2>Por favor revise cada uno de los contenidos aqui expuestos</h2>
+
+  <p>Temas a mostrar:</p>
+  <ul>
+    <li><strong>Array:</strong> {{ num_books }}</li>
+    <li><strong>Busquedas:</strong> {{ num_instances }}</li>
+    <li><strong>Pilas:</strong> {{ num_instances_available }}</li>
+    <li><strong>Colas:</strong> {{ num_authors }}</li>
+  </ul>
+
+{% endblock %}
